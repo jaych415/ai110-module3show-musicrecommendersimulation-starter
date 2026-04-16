@@ -1,33 +1,55 @@
 """
-Command line runner for the Music Recommender Simulation.
+main.py — CLI runner for the Music Recommender Simulation.
 
-This file helps you quickly run and test your recommender.
-
-You will implement the functions in recommender.py:
-- load_songs
-- score_song
-- recommend_songs
+Demonstrates recommendations for three diverse user profiles.
+Run with:  python main.py
 """
 
-from recommender import load_songs, recommend_songs
+from src.recommender import load_songs, recommend_songs
+
+PROFILES = {
+    "Happy Pop Fan": {
+        "genre": "pop",
+        "mood": "happy",
+        "energy": 0.80,
+        "likes_acoustic": False,
+    },
+    "Chill Lofi Listener": {
+        "genre": "lofi",
+        "mood": "chill",
+        "energy": 0.38,
+        "likes_acoustic": True,
+    },
+    "Intense Rock Head": {
+        "genre": "rock",
+        "mood": "intense",
+        "energy": 0.92,
+        "likes_acoustic": False,
+    },
+}
+
+
+def print_recommendations(profile_name: str, recs) -> None:
+    print(f"\n{'='*55}")
+    print(f"  Profile: {profile_name}")
+    print(f"{'='*55}")
+    for i, (song, score, explanation) in enumerate(recs, start=1):
+        print(f"\n#{i}  {song['title']} — {song['artist']}")
+        print(f"    Genre: {song['genre']}  |  Mood: {song['mood']}"
+              f"  |  Energy: {song['energy']}")
+        print(f"    Score: {score:.2f}")
+        print(f"    Because: {explanation}")
 
 
 def main() -> None:
-    songs = load_songs("data/songs.csv") 
+    songs = load_songs("data/songs.csv")
 
-    # Starter example profile
-    user_prefs = {"genre": "pop", "mood": "happy", "energy": 0.8}
 
-    recommendations = recommend_songs(user_prefs, songs, k=5)
+    for profile_name, prefs in PROFILES.items():
+        recs = recommend_songs(prefs, songs, k=5)
+        print_recommendations(profile_name, recs)
 
-    print("\nTop recommendations:\n")
-    for rec in recommendations:
-        # You decide the structure of each returned item.
-        # A common pattern is: (song, score, explanation)
-        song, score, explanation = rec
-        print(f"{song['title']} - Score: {score:.2f}")
-        print(f"Because: {explanation}")
-        print()
+    print(f"\n{'='*55}\n")
 
 
 if __name__ == "__main__":
