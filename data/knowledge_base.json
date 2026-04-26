@@ -1,0 +1,80 @@
+[
+    {
+      "id": "genre_pop",
+      "type": "genre",
+      "key": "pop",
+      "content": "Pop music is characterized by catchy melodies, strong rhythms, and wide mainstream appeal. Pop songs typically feature verse-chorus structures, polished production, and emotionally relatable lyrics. High-energy pop tracks often have fast tempos (100-180 BPM), strong danceability, and high valence scores indicating positivity. Artists like Dua Lipa, Harry Styles, and The Weeknd have defined modern pop with synth-driven production and 80s-inspired sounds. Pop listeners often enjoy high danceability and bright, upbeat moods."
+    },
+    {
+      "id": "genre_lofi",
+      "type": "genre",
+      "key": "lofi",
+      "content": "Lo-fi hip hop (lofi) is a genre defined by intentionally imperfect sound qualities: vinyl crackle, muffled drums, and jazzy chord progressions. Tracks typically have low energy (0.2-0.5), slow tempos (60-90 BPM), and high acousticness. The genre became popular through YouTube study streams and is strongly associated with focus, relaxation, and studying. Labels like ChilledCow popularized the aesthetic. Artists such as Jinsang, Idealism, Kupla, and Philanthrope are lofi staples. The mood is almost always chill or melancholic."
+    },
+    {
+      "id": "genre_rock",
+      "type": "genre",
+      "key": "rock",
+      "content": "Rock music spans many subgenres but is broadly defined by electric guitars, bass, and drums with strong rhythmic drive. Classic rock bands like AC/DC, Metallica, Queen, and Guns N Roses pioneered high-energy, loud, stadium-filling sound. Hard rock and metal tracks often have very high energy (0.85-0.95), fast tempos (140-220 BPM), low acousticness, and intense or aggressive moods. Rock listeners tend to prefer powerful, distorted guitar tones and high-impact production. The valence in rock varies widely — from triumphant anthems to dark, brooding themes."
+    },
+    {
+      "id": "mood_happy",
+      "type": "mood",
+      "key": "happy",
+      "content": "Happy or upbeat music typically features major keys, fast tempos, high valence, and energetic production. These tracks are associated with positive emotions, celebration, dancing, and social settings. In audio feature terms, happy songs usually score above 0.7 on valence and danceability. They work well for workouts, parties, commutes, and mood-lifting playlists. Happy pop and rock anthems often have singalong choruses and bright, layered production."
+    },
+    {
+      "id": "mood_chill",
+      "type": "mood",
+      "key": "chill",
+      "content": "Chill music prioritizes relaxation and low stimulation. Tracks are typically slower, quieter, and more ambient. Energy values are usually below 0.55. Chill music is popular for studying, sleeping, background ambiance, and winding down. Lofi hip hop dominates this category, along with ambient electronic, soft indie, and jazz. Listeners who prefer chill music often want something that does not demand attention but creates a comfortable sonic atmosphere."
+    },
+    {
+      "id": "mood_intense",
+      "type": "mood",
+      "key": "intense",
+      "content": "Intense music is high-energy, emotionally charged, and often aggressive or dramatic. Energy values are typically above 0.85. Intense tracks are popular for workouts, gaming, action sequences, and emotional catharsis. Hard rock, metal, and high-tempo pop all fall into this category. Intense songs often have distorted guitars, driving percussion, and powerful vocals. Listeners seeking intensity are often looking for a physical or emotional rush."
+    },
+    {
+      "id": "artist_weeknd",
+      "type": "artist",
+      "key": "The Weeknd",
+      "content": "The Weeknd (Abel Tesfaye) is a Canadian singer known for blending R&B, synth-pop, and dark pop. His album After Hours (2020) produced global hit 'Blinding Lights', which topped charts in over 30 countries. His sound features 80s-inspired synthesizers, melancholic themes despite upbeat tempos, and strong falsetto vocals. He is one of the most-streamed artists globally."
+    },
+    {
+      "id": "artist_metallica",
+      "type": "artist",
+      "key": "Metallica",
+      "content": "Metallica is an American heavy metal band formed in 1981, one of the best-selling music artists of all time with over 125 million albums sold. Known for aggressive guitar riffs, complex song structures, and intense live performances. Albums like Master of Puppets (1986) and The Black Album (1991) are considered landmarks of heavy metal. Songs like 'Enter Sandman' and 'Master of Puppets' are essential listening for rock and metal fans."
+    },
+    {
+      "id": "artist_jinsang",
+      "type": "artist",
+      "key": "Jinsang",
+      "content": "Jinsang is a South Korean lofi producer known for warm, melancholic beats. Tracks like 'Peach' and 'Life' are among the most recognized lofi hip hop songs. His production style uses heavy sampling of jazz records, slow tempos, and soft percussion, creating a nostalgic and introspective atmosphere. He is a cornerstone of the lofi study music community on YouTube and Spotify."
+    },
+    {
+      "id": "artist_dua_lipa",
+      "type": "artist",
+      "key": "Dua Lipa",
+      "content": "Dua Lipa is a British-Albanian pop star who rose to global fame with her 2020 album Future Nostalgia. Her music draws heavily from disco, funk, and synth-pop, featuring danceable rhythms and confident, empowering lyrics. Songs like 'Levitating', 'Don't Start Now', and 'Physical' demonstrate her signature blend of retro aesthetics and modern pop production. She is one of the defining pop artists of the 2020s."
+    },
+    {
+      "id": "energy_high",
+      "type": "feature",
+      "key": "high_energy",
+      "content": "High energy songs (energy > 0.75) are perceived as fast, loud, and noisy. They often feature dense instrumentation, dynamic range compression, and driving rhythms. These tracks are ideal for physical activity, social gatherings, and mood elevation. High energy is strongly correlated with rock, EDM, and upbeat pop."
+    },
+    {
+      "id": "energy_low",
+      "type": "feature",
+      "key": "low_energy",
+      "content": "Low energy songs (energy < 0.5) feel slow, quiet, and calm. They typically feature sparse instrumentation, soft dynamics, and minimal percussion. Ideal for sleep, meditation, studying, or background listening. Low energy is most common in lofi, ambient, classical, and acoustic genres."
+    },
+    {
+      "id": "acoustic_high",
+      "type": "feature",
+      "key": "high_acousticness",
+      "content": "Highly acoustic songs (acousticness > 0.6) use primarily non-electronic instruments — guitars, piano, strings, and voice. Acoustic music tends to feel more intimate, organic, and raw. It is common in folk, lofi, singer-songwriter, and unplugged recordings. Acoustic listeners often value authenticity and organic texture over polished production."
+    }
+  ]

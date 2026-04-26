@@ -1,3 +1,4 @@
 pandas
 pytest
 streamlit
+pytest>=7.0.0

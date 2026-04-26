@@ -1,0 +1,125 @@
+{
+  "Happy Pop Fan": [
+    {
+      "rank": 1,
+      "song": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "base_score": 6.44,
+      "rag_confidence": 0.67,
+      "rag_explanation": "\"Watermelon Sugar\" by Harry Styles was recommended because it matches your preferred pop genre, and fits your happy mood, and has high energy (0.82) close to your target. High energy is strongly correlated with rock, EDM, and upbeat pop. Lo-fi hip hop (lofi) is a genre defined by intentionally imperfect sound qualities: vinyl crackle, muffled drums, and jazzy chord progres...",
+      "retrieved_docs": [
+        "energy_high",
+        "genre_lofi",
+        "mood_happy"
+      ]
+    },
+    {
+      "rank": 2,
+      "song": "Levitating",
+      "artist": "Dua Lipa",
+      "base_score": 6.425,
+      "rag_confidence": 0.67,
+      "rag_explanation": "\"Levitating\" by Dua Lipa was recommended because it matches your preferred pop genre, and fits your happy mood, and has high energy (0.82) close to your target. High energy is strongly correlated with rock, EDM, and upbeat pop. Lo-fi hip hop (lofi) is a genre defined by intentionally imperfect sound qualities: vinyl crackle, muffled drums, and jazzy chord progres...",
+      "retrieved_docs": [
+        "energy_high",
+        "genre_lofi",
+        "mood_happy"
+      ]
+    },
+    {
+      "rank": 3,
+      "song": "Butter",
+      "artist": "BTS",
+      "base_score": 6.38,
+      "rag_confidence": 0.68,
+      "rag_explanation": "\"Butter\" by BTS was recommended because it matches your preferred pop genre, and fits your happy mood, and has high energy (0.78) close to your target. High energy is strongly correlated with rock, EDM, and upbeat pop. Lo-fi hip hop (lofi) is a genre defined by intentionally imperfect sound qualities: vinyl crackle, muffled drums, and jazzy chord progres...",
+      "retrieved_docs": [
+        "energy_high",
+        "genre_lofi",
+        "mood_happy"
+      ]
+    }
+  ],
+  "Chill Lofi Listener": [
+    {
+      "rank": 1,
+      "song": "Late Night Drive",
+      "artist": "Idealism",
+      "base_score": 6.3,
+      "rag_confidence": 0.77,
+      "rag_explanation": "\"Late Night Drive\" by Idealism was recommended because it matches your preferred lofi genre, and fits your chill mood, and has low energy (0.38) close to your target. Artists such as Jinsang, Idealism, Kupla, and Philanthrope are lofi staples. Low energy is most common in lofi, ambient, classical, and acoustic genres.",
+      "retrieved_docs": [
+        "genre_lofi",
+        "energy_low",
+        "energy_high"
+      ]
+    },
+    {
+      "rank": 2,
+      "song": "City Lights",
+      "artist": "Philanthrope",
+      "base_score": 6.26,
+      "rag_confidence": 0.76,
+      "rag_explanation": "\"City Lights\" by Philanthrope was recommended because it matches your preferred lofi genre, and fits your chill mood, and has low energy (0.4) close to your target. Artists such as Jinsang, Idealism, Kupla, and Philanthrope are lofi staples. Low energy is most common in lofi, ambient, classical, and acoustic genres.",
+      "retrieved_docs": [
+        "genre_lofi",
+        "energy_low",
+        "mood_chill"
+      ]
+    },
+    {
+      "rank": 3,
+      "song": "Lofi Study Beats",
+      "artist": "ChilledCow",
+      "base_score": 6.23,
+      "rag_confidence": 0.76,
+      "rag_explanation": "\"Lofi Study Beats\" by ChilledCow was recommended because it matches your preferred lofi genre, and fits your chill mood, and has low energy (0.35) close to your target. Lo-fi hip hop (lofi) is a genre defined by intentionally imperfect sound qualities: vinyl crackle, muffled drums, and jazzy chord progres... Low energy is most common in lofi, ambient, classical, and acoustic genres.",
+      "retrieved_docs": [
+        "genre_lofi",
+        "energy_low",
+        "mood_chill"
+      ]
+    }
+  ],
+  "Intense Rock Head": [
+    {
+      "rank": 1,
+      "song": "Thunderstruck",
+      "artist": "AC/DC",
+      "base_score": 6.27,
+      "rag_confidence": 0.75,
+      "rag_explanation": "\"Thunderstruck\" by AC/DC was recommended because it matches your preferred rock genre, and fits your intense mood, and has high energy (0.91) close to your target. Hard rock and metal tracks often have very high energy (0.85-0.95), fast tempos (140-220 BPM), low acousticness, and intense or aggressiv... High energy is strongly correlated with rock, EDM, and upbeat pop.",
+      "retrieved_docs": [
+        "genre_rock",
+        "energy_high",
+        "mood_intense"
+      ]
+    },
+    {
+      "rank": 2,
+      "song": "Welcome to the Jungle",
+      "artist": "Guns N Roses",
+      "base_score": 6.235,
+      "rag_confidence": 0.78,
+      "rag_explanation": "\"Welcome to the Jungle\" by Guns N Roses was recommended because it matches your preferred rock genre, and fits your intense mood, and has high energy (0.93) close to your target. Hard rock and metal tracks often have very high energy (0.85-0.95), fast tempos (140-220 BPM), low acousticness, and intense or aggressiv... High energy is strongly correlated with rock, EDM, and upbeat pop.",
+      "retrieved_docs": [
+        "genre_rock",
+        "energy_high",
+        "mood_intense"
+      ]
+    },
+    {
+      "rank": 3,
+      "song": "Mr. Brightside",
+      "artist": "The Killers",
+      "base_score": 6.23,
+      "rag_confidence": 0.8,
+      "rag_explanation": "\"Mr. Brightside\" by The Killers was recommended because it matches your preferred rock genre, and fits your intense mood, and has high energy (0.85) close to your target. Hard rock and metal tracks often have very high energy (0.85-0.95), fast tempos (140-220 BPM), low acousticness, and intense or aggressiv... Intense music is high-energy, emotionally charged, and often aggressive or dramatic.",
+      "retrieved_docs": [
+        "genre_rock",
+        "mood_intense",
+        "energy_high"
+      ]
+    }
+  ]
+}

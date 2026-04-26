@@ -1,0 +1,92 @@
+{
+  "passed": 10,
+  "total": 10,
+  "tests": [
+    {
+      "test": "Pop fan gets pop songs",
+      "passed": true,
+      "top_song": "Watermelon Sugar",
+      "top_genre": "pop",
+      "top_score": 6.44,
+      "notes": []
+    },
+    {
+      "test": "Lofi listener gets lofi songs",
+      "passed": true,
+      "top_song": "Late Night Drive",
+      "top_genre": "lofi",
+      "top_score": 6.3,
+      "notes": []
+    },
+    {
+      "test": "Rock fan gets rock songs",
+      "passed": true,
+      "top_song": "Thunderstruck",
+      "top_genre": "rock",
+      "top_score": 6.27,
+      "notes": []
+    },
+    {
+      "test": "High energy preference filters correctly",
+      "passed": true,
+      "top_song": "Thunderstruck",
+      "top_genre": "rock",
+      "top_score": 6.225,
+      "notes": []
+    },
+    {
+      "test": "Low energy preference filters correctly",
+      "passed": true,
+      "top_song": "Snowfall",
+      "top_genre": "lofi",
+      "top_score": 6.225,
+      "notes": []
+    },
+    {
+      "test": "Score is deterministic (same input = same output)",
+      "passed": true,
+      "top_song": "Butter",
+      "top_genre": "pop",
+      "top_score": 6.365,
+      "notes": []
+    },
+    {
+      "test": "RAG retrieval returns relevant docs for pop genre",
+      "passed": true,
+      "retrieved_ids": [
+        "artist_dua_lipa",
+        "mood_happy",
+        "genre_pop"
+      ],
+      "notes": []
+    },
+    {
+      "test": "RAG retrieval returns relevant docs for lofi genre",
+      "passed": true,
+      "retrieved_ids": [
+        "genre_lofi",
+        "acoustic_high",
+        "mood_chill"
+      ],
+      "notes": []
+    },
+    {
+      "test": "RAG retrieval returns relevant docs for rock genre",
+      "passed": true,
+      "retrieved_ids": [
+        "energy_high",
+        "genre_rock",
+        "mood_intense"
+      ],
+      "notes": []
+    },
+    {
+      "test": "Fallback: unknown genre still returns results",
+      "passed": true,
+      "top_song": "City Lights",
+      "top_genre": "lofi",
+      "top_score": 3.79,
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+2026-04-25 18:25:39,978 [INFO] __main__ — Starting RAG-Enhanced Music Recommender
+2026-04-25 18:25:39,979 [INFO] src.rag_engine — Loaded 13 documents from knowledge base.
+2026-04-25 18:25:39,979 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:Harry Styles energy:0.82 acousti'
+2026-04-25 18:25:39,980 [INFO] src.rag_engine — RAG explain #1 | confidence=0.67
+2026-04-25 18:25:39,980 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:Dua Lipa energy:0.82 acousticnes'
+2026-04-25 18:25:39,980 [INFO] src.rag_engine — RAG explain #2 | confidence=0.67
+2026-04-25 18:25:39,981 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:BTS energy:0.78 acousticness:0.0'
+2026-04-25 18:25:39,981 [INFO] src.rag_engine — RAG explain #3 | confidence=0.68
+2026-04-25 18:25:39,981 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:Idealism energy:0.38 acousticne'
+2026-04-25 18:25:39,981 [INFO] src.rag_engine — RAG explain #4 | confidence=0.77
+2026-04-25 18:25:39,982 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:Philanthrope energy:0.4 acousti'
+2026-04-25 18:25:39,982 [INFO] src.rag_engine — RAG explain #5 | confidence=0.76
+2026-04-25 18:25:39,982 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:ChilledCow energy:0.35 acoustic'
+2026-04-25 18:25:39,982 [INFO] src.rag_engine — RAG explain #6 | confidence=0.76
+2026-04-25 18:25:39,983 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:AC/DC energy:0.91 acousticnes'
+2026-04-25 18:25:39,983 [INFO] src.rag_engine — RAG explain #7 | confidence=0.75
+2026-04-25 18:25:39,983 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:Guns N Roses energy:0.93 acou'
+2026-04-25 18:25:39,983 [INFO] src.rag_engine — RAG explain #8 | confidence=0.78
+2026-04-25 18:25:39,983 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:The Killers energy:0.85 acous'
+2026-04-25 18:25:39,984 [INFO] src.rag_engine — RAG explain #9 | confidence=0.80
+2026-04-25 18:27:21,222 [INFO] __main__ — Starting RAG-Enhanced Music Recommender
+2026-04-25 18:27:21,223 [INFO] src.rag_engine — Loaded 13 documents from knowledge base.
+2026-04-25 18:27:21,224 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:Harry Styles energy:0.82 acousti'
+2026-04-25 18:27:21,224 [INFO] src.rag_engine — RAG explain #1 | confidence=0.67
+2026-04-25 18:27:21,224 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:Dua Lipa energy:0.82 acousticnes'
+2026-04-25 18:27:21,224 [INFO] src.rag_engine — RAG explain #2 | confidence=0.67
+2026-04-25 18:27:21,225 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:BTS energy:0.78 acousticness:0.0'
+2026-04-25 18:27:21,225 [INFO] src.rag_engine — RAG explain #3 | confidence=0.68
+2026-04-25 18:27:21,225 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:Idealism energy:0.38 acousticne'
+2026-04-25 18:27:21,225 [INFO] src.rag_engine — RAG explain #4 | confidence=0.77
+2026-04-25 18:27:21,225 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:Philanthrope energy:0.4 acousti'
+2026-04-25 18:27:21,226 [INFO] src.rag_engine — RAG explain #5 | confidence=0.76
+2026-04-25 18:27:21,226 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:ChilledCow energy:0.35 acoustic'
+2026-04-25 18:27:21,226 [INFO] src.rag_engine — RAG explain #6 | confidence=0.76
+2026-04-25 18:27:21,226 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:AC/DC energy:0.91 acousticnes'
+2026-04-25 18:27:21,227 [INFO] src.rag_engine — RAG explain #7 | confidence=0.75
+2026-04-25 18:27:21,227 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:Guns N Roses energy:0.93 acou'
+2026-04-25 18:27:21,227 [INFO] src.rag_engine — RAG explain #8 | confidence=0.78
+2026-04-25 18:27:21,227 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:The Killers energy:0.85 acous'
+2026-04-25 18:27:21,227 [INFO] src.rag_engine — RAG explain #9 | confidence=0.80
+2026-04-25 18:27:21,228 [INFO] __main__ — Results saved to logs/results_20260425_182721.json
+2026-04-25 18:38:20,295 [INFO] __main__ — Starting RAG-Enhanced Music Recommender
+2026-04-25 18:38:20,296 [INFO] src.rag_engine — Loaded 13 documents from knowledge base.
+2026-04-25 18:38:20,297 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:Harry Styles energy:0.82 acousti'
+2026-04-25 18:38:20,297 [INFO] src.rag_engine — RAG explain #1 | confidence=0.67
+2026-04-25 18:38:20,297 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:Dua Lipa energy:0.82 acousticnes'
+2026-04-25 18:38:20,297 [INFO] src.rag_engine — RAG explain #2 | confidence=0.67
+2026-04-25 18:38:20,298 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:pop mood:happy artist:BTS energy:0.78 acousticness:0.0'
+2026-04-25 18:38:20,298 [INFO] src.rag_engine — RAG explain #3 | confidence=0.68
+2026-04-25 18:38:20,298 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:Idealism energy:0.38 acousticne'
+2026-04-25 18:38:20,298 [INFO] src.rag_engine — RAG explain #4 | confidence=0.77
+2026-04-25 18:38:20,299 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:Philanthrope energy:0.4 acousti'
+2026-04-25 18:38:20,299 [INFO] src.rag_engine — RAG explain #5 | confidence=0.76
+2026-04-25 18:38:20,299 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:lofi mood:chill artist:ChilledCow energy:0.35 acoustic'
+2026-04-25 18:38:20,299 [INFO] src.rag_engine — RAG explain #6 | confidence=0.76
+2026-04-25 18:38:20,300 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:AC/DC energy:0.91 acousticnes'
+2026-04-25 18:38:20,300 [INFO] src.rag_engine — RAG explain #7 | confidence=0.75
+2026-04-25 18:38:20,300 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:Guns N Roses energy:0.93 acou'
+2026-04-25 18:38:20,300 [INFO] src.rag_engine — RAG explain #8 | confidence=0.78
+2026-04-25 18:38:20,300 [INFO] src.rag_engine — Retrieved 3 docs for query: 'genre:rock mood:intense artist:The Killers energy:0.85 acous'
+2026-04-25 18:38:20,301 [INFO] src.rag_engine — RAG explain #9 | confidence=0.80
+2026-04-25 18:38:20,301 [INFO] __main__ — Results saved to logs/results_20260425_183820.json
