@@ -33,7 +33,7 @@ The original system accepted a user preference profile (favorite genre, mood, ta
 
 ## 🏗️ Architecture
 
-![System Architecture](assets/system_architecture.svg)
+![System Architecture](assets/system_architecture.png)
 
 **Data flow:**
 
